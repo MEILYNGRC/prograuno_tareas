@@ -1,0 +1,13 @@
+Algoritmo par_o_impar
+	
+	Escribir "Determinador de números par o impar";
+	Escribir "Ingrese un número: ";
+	leer num;
+	
+	poi<- num % 2
+	si poi = 0 Entonces
+		escribir num, " es un número par";
+	SiNo
+		escribir num, " es un número impar";
+	FinSi
+FinAlgoritmo
